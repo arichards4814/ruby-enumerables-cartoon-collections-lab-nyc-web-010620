@@ -18,7 +18,7 @@ def long_planeteer_calls(arr)
   # Your code here
   
   
-  arr.include?{|ele| ele.split.count >= 4}
+  arr.include?{|ele| ele.split.count > 4}
   
 end
 
