@@ -7,6 +7,8 @@ end
 def summon_captain_planet(arr)
   # Your code here
   
+  summon_captain_planet.each{|ele| puts ele.capitalize }
+  
   
 end
 
