@@ -7,7 +7,9 @@ end
 def summon_captain_planet(arr)
   # Your code here
   
-  arr.each{|ele| ele.capitalize + "!" }
+  new = []
+  arr.each{|ele| new.push(ele.capitalize + "!") }
+ new
   
   
 end
