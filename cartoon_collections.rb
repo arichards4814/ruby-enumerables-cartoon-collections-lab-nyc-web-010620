@@ -14,11 +14,10 @@ def summon_captain_planet(arr)
   
 end
 
-def long_planeteer_calls(arr)
+def long_planeteer_calls(var)
   # Your code here
   
-  
-  arr.any?{|ele| ele.split.count > 4}
+  var.any?{|ele| ele.split(//).count > 4}
   
 end
 
