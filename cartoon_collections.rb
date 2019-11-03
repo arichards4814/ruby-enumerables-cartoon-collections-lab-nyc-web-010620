@@ -9,9 +9,6 @@ def summon_captain_planet(arr)
   
   arr.map{|ele| ele.capitalize +"!"}
   
-  
-  
-  
 end
 
 def long_planeteer_calls(var)
