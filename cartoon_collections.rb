@@ -24,6 +24,6 @@ def find_the_cheese(arr)
   
   arr.include?{|ele| ele }
   
-  arr.find{|ele| ele ==
+  arr.find{|ele| ele == cheese_types[0] ||
   
 end
